@@ -1,0 +1,217 @@
+.meta-table {
+  display   : flex;
+  flex-flow : column wrap;
+  width     : 99%;
+}
+
+.meta-table .meta-tr {
+  display     : flex;
+  flex-flow   : row nowrap;
+  padding     : 10px;
+  align-items : center;
+}
+
+.meta-table .meta-tr .meta-td:nth-of-type(1) {
+  width : 20%;
+}
+
+.meta-table .meta-tr .meta-td:nth-of-type(2) {
+  width : 80%;
+}
+
+.meta-table .meta-tr:nth-child(odd) {
+  background-color : #edeaea;
+}
+
+.meta-table .meta-tr .meta-td span {
+  font-size : 0.7rem;
+}
+
+/* Success message for saving settings */
+.f12-notice {
+  display            : flex;
+  flex-flow          : column wrap;
+  width              : 99%;
+  padding            : 10px;
+  border             : 1px solid #edeaea;
+  margin-bottom      : 20px;
+  box-sizing         : border-box;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+}
+
+.f12-notice.success {
+  border-color     : #8DBC87;
+  background-color : #ADE2AA;
+}
+
+.meta-table .meta-tr textarea {
+  width : 100%;
+}
+
+/** File Picker */
+.f12-file-picker {
+  width : 100%;
+}
+
+.f12-file-picker th {
+  padding : 10px;
+}
+
+.f12-file-picker tr td {
+  padding : 10px;
+}
+
+.f12-file-picker tr:nth-child(odd) {
+  background-color : #edeaea;
+}
+
+.f12-file-picker tr {
+  cursor : pointer;
+}
+
+.f12-file-picker__content .f12-option-bar {
+  display         : flex;
+  flex-flow       : row nowrap;
+  justify-content : space-between;
+  margin-bottom   : 10px;
+  margin-top      : 10px;
+}
+
+.f12-file-picker__content .f12-pageinator {
+  display         : flex;
+  flex-flow       : row wrap;
+  justify-content : flex-start;
+  align-items     : center;
+}
+
+.f12-file-picker__content .f12-option-bar .f12-button {
+  border           : 1px solid #edeaea;
+  background-color : #fff;
+  color            : #333;
+  margin           : 2px;
+  width            : 30px;
+  height           : 30px;
+  text-align       : center;
+  vertical-align   : center;
+  line-height      : 30px;
+  text-decoration  : none;
+}
+
+.f12-file-picker__content .f12-option-bar .f12-button.active,
+.f12-file-picker__content .f12-option-bar .f12-button:hover {
+  background-color : #333;
+  color            : #fff;
+}
+
+
+
+/** object Picker */
+.f12-object-picker {
+  width : 100%;
+}
+
+.f12-object-picker th {
+  padding : 10px;
+}
+
+.f12-object-picker tr td {
+  padding : 10px;
+}
+
+.f12-object-picker tr:nth-child(odd) {
+  background-color : #edeaea;
+}
+
+.f12-object-picker tr {
+  cursor : pointer;
+}
+
+.f12-object-picker__content .f12-option-bar {
+  display         : flex;
+  flex-flow       : row nowrap;
+  justify-content : space-between;
+  margin-bottom   : 10px;
+  margin-top      : 10px;
+}
+
+.f12-object-picker__content .f12-pageinator {
+  display         : flex;
+  flex-flow       : row wrap;
+  justify-content : flex-start;
+  align-items     : center;
+}
+
+.f12-object-picker__content .f12-option-bar .f12-button {
+  border           : 1px solid #edeaea;
+  background-color : #fff;
+  color            : #333;
+  margin           : 2px;
+  width            : 30px;
+  height           : 30px;
+  text-align       : center;
+  vertical-align   : center;
+  line-height      : 30px;
+  text-decoration  : none;
+}
+
+.f12-object-picker__content .f12-option-bar .f12-button.active,
+.f12-object-picker__content .f12-option-bar .f12-button:hover {
+  background-color : #333;
+  color            : #fff;
+}
+
+/** download Picker */
+.f12-download-picker {
+  width : 100%;
+}
+
+.f12-download-picker th {
+  padding : 10px;
+}
+
+.f12-download-picker tr td {
+  padding : 10px;
+}
+
+.f12-download-picker tr:nth-child(odd) {
+  background-color : #edeaea;
+}
+
+.f12-download-picker tr {
+  cursor : pointer;
+}
+
+.f12-download-picker__content .f12-option-bar {
+  display         : flex;
+  flex-flow       : row nowrap;
+  justify-content : space-between;
+  margin-bottom   : 10px;
+  margin-top      : 10px;
+}
+
+.f12-download-picker__content .f12-pageinator {
+  display         : flex;
+  flex-flow       : row wrap;
+  justify-content : flex-start;
+  align-items     : center;
+}
+
+.f12-download-picker__content .f12-option-bar .f12-button {
+  border           : 1px solid #edeaea;
+  background-color : #fff;
+  color            : #333;
+  margin           : 2px;
+  width            : 30px;
+  height           : 30px;
+  text-align       : center;
+  vertical-align   : center;
+  line-height      : 30px;
+  text-decoration  : none;
+}
+
+.f12-download-picker__content .f12-option-bar .f12-button.active,
+.f12-download-picker__content .f12-option-bar .f12-button:hover {
+  background-color : #333;
+  color            : #fff;
+}

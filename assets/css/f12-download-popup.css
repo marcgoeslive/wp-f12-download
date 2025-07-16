@@ -1,0 +1,30 @@
+.f12_popup {
+  display  : none;
+  position : absolute;
+  width    : 100%;
+  height   : 100%;
+  top      : 0;
+  left     : 0;
+}
+
+.f12_popup__background {
+  top              : 0;
+  left             : 0;
+  position         : absolute;
+  width            : 100%;
+  height           : 100%;
+  background-color : rgba(0, 0, 0, 0.5);
+}
+
+.f12_popup__foreground {
+  position : absolute;
+  left     : 40%;
+  width    : 20%;
+  height   : 20%;
+  top      : 40%;
+}
+
+/* Override Site Content Contain */
+.site-content-contain {
+  position : inherit;
+}
